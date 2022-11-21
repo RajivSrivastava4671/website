@@ -1,7 +1,7 @@
 apiVersion: apps/v1
-kind: Deployment1
+kind: Deployment
 metadata:
-  name: tomcat2
+  name: tomcat3
 spec:
   selector:
     matchLabels:
