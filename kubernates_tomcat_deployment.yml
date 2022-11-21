@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: tomcat
 spec:
+  selector:
+    matchLabels:
+      app: tomcat
   replicas: 2
   template:
     metadata:
