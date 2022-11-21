@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tomcat3
+  name: tomcat4
 spec:
   selector:
     matchLabels:
@@ -14,5 +14,5 @@ spec:
         app: tomcat
     spec:
       containers:
-      - image: rajiv4671/masterapp  
+      - image: rajiv4671/masterapp1  
         name: tomcatapp
